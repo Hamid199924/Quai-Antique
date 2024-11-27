@@ -22,8 +22,8 @@ p{
 }
 
 .hero-scene{
-
        position: relative;
+       padding: 15px;
        &::before{
            content:"";
            position: absolute;
@@ -80,4 +80,8 @@ p{
         opacity: 0;
         transition: all 0.3s;
     }
+}
+
+.form-label{
+    color: $primary;
 }

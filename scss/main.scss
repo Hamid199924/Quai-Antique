@@ -82,6 +82,30 @@ p{
     }
 }
 
+.images-card{
+    position: relative;
+    &:hover{
+        .titre-image,
+        .action-image-buttons{
+            opacity: 1;
+        }
+    }
+    .action-image-buttons{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        opacity: 0;
+        transition: all 0.3s;
+    
+    }
+}
+
+
+
 .form-label{
     color: $primary;
 }

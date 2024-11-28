@@ -104,7 +104,13 @@ p{
     }
 }
 
-
+.allreservations{
+    a{
+        display: block;
+        color: $block;
+        padding: 10px;
+    }
+}
 
 .form-label{
     color: $primary;
